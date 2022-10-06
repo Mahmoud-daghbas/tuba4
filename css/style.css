@@ -63,6 +63,13 @@ body a{
  
 }
 
+.icone-header img{
+  position: absolute;
+  top:40%;
+  right: 25%;
+  width: 50%;
+}
+
 /* ============== botstrab============ */
 img{
   max-width: 100%;
@@ -282,9 +289,6 @@ a:hover{
  .container-catigory {
   border: #fff 2px solid;
  }
- .box-container{
-
- }
 
  /* .box-container.hot:hover .box-container-contant {
   background-color: rgba(49, 131, 139, 0.883);
@@ -332,11 +336,11 @@ a:hover{
 .modal-header .btn-close {
   background-color: var(--color-weight);
 }
-.revea{
-  /* position: relative;
+/* .revea{
+  position: relative;
   transform: translateY(150px);
-  opacity: 0; */
-}
+  opacity: 0;
+} */
 .reveal.active{
   position: relative;
   transform: translateY(0px);
