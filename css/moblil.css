@@ -1,0 +1,118 @@
+@media screen and ( max-width:876px ){
+    .background-header{
+        justify-content: space-between;
+       
+       }
+       /* .icone-header{
+        position: absolute;
+        top:40%;
+        left:38vw;
+      } */
+       /* .icone-header{
+        padding-top: 1rem;
+        position: relative;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 15rem;
+         width: 100%;
+         height: 70vh;
+    
+      }
+     */
+       /* .container-header-categories h1{
+        position: absolute;
+        top: 80%;
+        right: 5rem;
+        color: white;
+        font-size: 2rem;
+        font-family: 'tuba-black' ,sans-serif ;
+      }
+     */
+    
+
+       /* ------------------- catigorys-------------- */
+   
+    
+      .container-catigory {
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 0.0rem 0.0rem;
+        gap: 0.2rem;
+      }
+
+      .container-fluid{
+        display: grid;
+        grid-template-columns: 1fr ;
+      }
+      
+          
+    /* ================= categoriy ======================= */
+     
+     .col.mmm img{
+      /* margin-top: 2px; */
+      /* box-shadow:0 0 5px rgba(0, 0, 0, 0.2); */
+     } 
+   
+     
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      
+    }
+  
+   .spanh1{
+    font-size: 1rem;
+}
+
+
+.destails-of-image  .spanh5{
+    font-size: 0.6rem;
+    line-height: normal;
+   
+}
+.destails-of-image h1 {
+    font-family: 'tuba-roman' , sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.destails-of-image h5 {
+    font-family: 'tuba-bold' , sans-serif;
+    font-size: 0.6rem;
+    line-height: normal;
+    
+}
+
+
+    .container-categories img{
+      position: absolute;
+     
+   }
+
+   .categories-details{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    justify-content: center;
+   }
+
+   
+ .background-header-categories{
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 2rem 3rem;
+  width: 100%;
+
+}
+
+
+
+
+.container-categories-details img{
+ margin: 0.5rem;
+}
+
+
+}

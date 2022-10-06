@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'toba-light';
+    src: url(../fontwab/FrutigerLTArabic45Light.ttf);
+}
+
+@font-face {
+    font-family:'tuba-bold' ;
+    src: url(../fontwab/FrutigerLTArabic65Bold.ttf);
+  
+}
+
+@font-face {
+    font-family:'tuba-roman' ;
+    src: url(../fontwab/FrutigerLTArabic55Roman.ttf);
+
+}
+
+@font-face {
+    font-family:'tuba-black' ;
+    src: url(../fontwab/frutigerltarabic75black.ttf);
+    font-family: sans-serif;
+ 
+}
+
+:root{
+    --color:#31848B;
+    --primary-color:rgba( 49 , 132 , 139 , 100) ;
+    --image-contant-color:rgba( 49 , 132 , 139 , 0.20) ;
+    --font-light: 'toba-light' ,'sans-serif';
+    --font-bold: 'toba-bold' ,'sans-serif';
+    --font-roman: 'toba-roman' ,'sans-serif';
+    --font-black: 'toba-black' ,'sans-serif';
+    
+}
+
+body{
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+  
+ h2{
+    font-size: 5rem;
+    color: aqua;
+ }
+
+
+ .header-categories{
+   position: relative;
+    height: 100vh;
+
+ }
+
+
+ /* =================================================  */
+
+
+ .header.header-garden{
+    background: url(../images/PageImageMain/img-1.jpeg) no-repeat center/cover;
+  }
+
+  .header.header-cloude{
+    background: url(../images/PageImageMain/img-2.jpeg) no-repeat bottom/cover;
+  }
+  .header.header-hot{
+    background: url(../images/PageImageMain/img-3.jpeg) no-repeat bottom/cover;
+  }
+  .header.header-armintrip{
+    background: url(../images/PageImageMain/img-4.jpeg) no-repeat bottom/cover;
+  }
+
+  .header.header-tubaforn{
+    background: url(../images/PageImageMain/img-5.jpeg) no-repeat bottom/cover;
+  }
+  .header.header-atbaqMokhtarh{
+    background: url(../images/PageImageMain/img-6.jpeg) no-repeat bottom/cover;
+  }
+  .header.header-sweet{
+    background: url(../images/PageImageMain/img-7.jpeg) no-repeat bottom/cover;
+  }
+
+  .header.header-fruits{
+    background: url(../images/PageImageMain/imgnew-8.jpeg) no-repeat bottom/cover;
+  }
+ 
+  .header.header-armintrip{
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url(../images/PageImageMain/img-4.jpeg) no-repeat bottom/cover;
+  }
+
+  .container-header-categories{
+    position: relative;
+    top:0;
+    left:0;
+    height: 100vh;
+    /* background-color: rgba( 49 , 132 , 139 , 0.5); */
+ 
+  }
+
+/* .header.header-garden::before{
+  content: " هنا سيتم وصف القسم بكلمات بسيطة وباسلوب تحفز المستخرم للشراء يحتوي هذا القسم على انواع السلطة اللذيذة بانواع مختلفة  ولذيذة وبأطباق متعددة ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-family: 'tuba-bold' , sans-serif;
+  border: #fff 1px solid;
+  padding: 2rem;
+  padding-top: 50%;
+  text-align: center;
+  background-color: rgba(49, 131, 139, 0.34);
+  border-radius: 10px;
+  height: 100vh;
+  width: 100vw;
+
+} */
+
+ .icone-header .title-categories {
+  color: #fff;
+  font-family: 'tuba-bold' , sans-serif;
+  /* border: #fff 1px solid; */
+  padding: 2rem;
+  padding-top: 30%;
+  text-align: center;
+  background-color: rgba(49, 131, 139, 0.34);
+  border-radius: 10px;
+  height: 100vh;
+  width: 100vw;
+
+  }
+
+ 
+
+  
+ /* ====================================== */
+ .categories-details{
+
+   position: absolute;
+   top: 70%;
+   right: 0%;
+
+ }
+
+.col:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+.container-fluid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.container-categories-details img{
+   position: relative;
+   top: 30%;
+   left: 0rem;
+   width: 100%;
+   margin: 1rem;
+   object-fit: cover;
+  
+}
+
+ /* ============ */
+
+ .destails-of-image {
+    position: relative;
+   top: 30%;
+   left: 0;
+}
+.spanh1{
+    font-size: 1.4rem;
+}
+/* .destails-of-image .title{
+    text-align: center;
+}
+.destails-of-image  .spanh5{
+    direction: ltr;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 5px;
+}
+.destails-of-image h1 {
+    font-family: 'tuba-roman' , sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.destails-of-image h5 {
+    font-family: 'tuba-bold' , sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+ .destails-of-image .description .price{
+    text-align: center;
+    direction: ltr;
+    margin-bottom: 0;
+ }
+
+ .btn.btn-secondary{
+    background-color: #31848B;
+    border-color: aliceblue;
+ } */

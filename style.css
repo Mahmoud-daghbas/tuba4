@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: 'toba-light';
+    src: url(/fontwab/FrutigerLTArabic45Light.ttf);
+}
+
+@font-face {
+    font-family:'tuba-bold' ;
+    src: url(/fontwab/FrutigerLTArabic65Bold.ttf);
+  
+}
+
+@font-face {
+    font-family:'tuba-roman' ;
+    src: url(/fontwab/FrutigerLTArabic55Roman.ttf);
+
+}
+
+@font-face {
+    font-family:'tuba-black' ;
+    src: url(/fontwab/frutigerltarabic75black.ttf);
+    font-family: sans-serif;
+ 
+}
+
+:root{
+    --colorP1:#31848B;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: var(--colorP1) url(/images/header.jpeg) no-repeat center center/cover;
+}
+
+.header-container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #0fa2b847; */
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 5px ;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 150px;
+    border: var(--colorP1) 1px solid;
+    gap: 20px;
+    background-color: var(--colorP1);
+    border-radius: 5px;
+    
+}
+.box-container img{
+    border: #fff 3px solid;
+    width: 100%;
+    height: 138px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+.img-btn{
+    background-color: #31848B;
+    border: none;
+}
+.box-showimage{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height:300px;
+    padding: 1rem;
+    
+}
+
+.clos{
+    display: block;
+    opacity: 1; 
+}
+
+.open{
+    display: block;
+    opacity: -100;
+}
+
+
+
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    border: none;
+    padding: 5px;
+}
+.image-show img {
+    width:100%;
+    height:290px;
+    object-fit: cover;
+    margin: 5px;
+    border: #fff 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-container .description{
+    margin: 5px;
+    font-family: 'tuba-roman' , sans-serif;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box-container .description h1{
+    text-align: right;
+}
+.box-container .description p{
+    text-align: right;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+}
+
+/* .box-container .description:hover{
+    transform: scale(0.9);
+}
+.box-container img:hover{
+    transform: scale(0.9);
+} */
+section .container .row{
+
+}
+.col{
+    background-color: #31848B; 
+    padding: 5px;
+    font-family: 'tuba-roman' ,sans-serif;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.col.image{
+    padding: 5px;
+    background-color: #31848B;
+}
+col:hover{
+  transform: scale(0.2);
+}
